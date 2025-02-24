@@ -18,14 +18,12 @@
   /* Error color */
   --error-500: #f74747;
 
+  /* Disable color */
+  --disable-400: #9ca3af;
+
   /* Font style */
   --font-primary: 'Pretendard Variable', sans-serif;
   --font-size-base: 16px;
-}
-
-body {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-base);
 }
 
 /* Common font weights  */
