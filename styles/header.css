@@ -1,0 +1,36 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 9.5px 20%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+
+picture {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 153px;
+}
+
+.header__login {
+  width: 128px;
+  height: 48px;
+  padding: 12px 23px;
+  color: white;
+  background-color: var(--primary-100);
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header__login:hover {
+  background-color: var(--primary-200);
+}
