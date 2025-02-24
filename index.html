@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Group 22.png">
+    <link rel="icon" href="icon-img/panda-face.png">
     <title>판다마켓</title>
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header 이미지 -->
     <header>
         <a href="/">
-        <img class="header-img" src="Property 1=sm.png">
+        <img class="header-img" src="img/panda.logo.png" alt="판다마켓 로고">
         </a>
-        <a class="login-button" href="/login" target="_self">로그인</a>
+        <a class="login-button" href="/login.html" target="_self">로그인</a>
     </header>
     <div class="container">
         <div class="top-banner">
             <div class="content">
                 <h2 class="section">일상의 모든 물건을<br>
                 거래해 보세요</h2>
-                <a class="item-button" href="/items">구경하러 가기</a>
+                <a class="item-button" href="/item.html">구경하러 가기</a>
             </div>
-                <img class="banner-img" src="Img_home_top.png">
+                <img class="banner-img" src="img/img-home-top.png" alt="한 손들고 장 보러 가는 판다 그림">
         </div>
     </div>    
         <!--  main 이미지 -->
     <main>
         <div class="main-content">
             <div class="main-section">
-                <img src="Img_home_01.png">
+                <img class="main-img" src="img/img-main-1.png" alt="두 마리의 판다와 녹색 옷 그림">
                 <div class="main-description">
-                    <p class="description-1">Hot item</p>
-                    <h2 class="description-2">인기 상품을<br>
+                    <p class="description-tag">Hot item</p>
+                    <h2 class="description-title">인기 상품을<br>
                         확인해 보세요</h2>
-                    <p class="description-3">가장 HOT한 중고거래 물품을<br>
+                    <p class="description-subTitle">가장 HOT한 중고거래 물품을<br>
                         판다 마켓에서 확인해 보세요</p>
                 </div>        
             </div>            
@@ -43,12 +46,12 @@
         
         <div class="main-content">
             <div class="main-section-2">
-                <img src="Img_home_02.png">
+                <img class="main-img" src="img/img-main-2.png" alt="돋보기로 찾는 그림">
                 <div class="main-description-2">
-                    <p class="description-1">Search</p>
-                    <h2 class="description-2">구매를 원하는<br>
+                    <p class="description-tag">Search</p>
+                    <h2 class="description-title">구매를 원하는<br>
                         상품을 검색하세요</h2>
-                    <p class="description-3">구매하고 싶은 물품은 검색해서<br>
+                    <p class="description-subTitle">구매하고 싶은 물품은 검색해서<br>
                         쉽게 찾아보세요</p>
                 </div>        
             </div>
@@ -56,14 +59,14 @@
 
         <div class="main-content">
             <div class="main-section-3">
-                <img src="Img_home_03.png">
+                <img class="main-img" src="img/img-main-3.png" alt="연필,수첩,안경 등 상품을 등록하는 그림">
                 <div class="main-description-3">
-                    <p class="description-1">Register</p>
-                    <h2 class="description-2">판매를 원하는<br>
+                    <p class="description-tag">Register</p>
+                    <h2 class="description-title">판매를 원하는<br>
                         상품을 등록하세요</h2>
-                    <p class="description-3">어떤 물건이든 판매하고 싶은 상품을<br>
+                    <p class="description-subTitle">어떤 물건이든 판매하고 싶은 상품을<br>
                         쉽게 등록하세요</p>
-                </div>        
+                </div>
             </div>
         </div>
     </main>
@@ -71,31 +74,39 @@
     <footer>
         <div class="container">
             <div class="bottom-banner">
-                <h2 class="section">믿을 수 있는<br>
+                <h2 class="section-2">믿을 수 있는<br>
                     판다마켓 중고 거래</h2>
-                <img class="banner-img" src="Img_home_bottom.png">
+                <img class="banner-img" src="img/Img-home-bottom.png" alt="두 마리의 판다가 기분 좋은 얼굴로 한 손들고 인사하며 대화하는 그림">
             </div>
         </div>
         <div class="footer-bg">
-            <p class="fodter-small">©codeit - 2024</p>
+            <p class="footer-small">©codeit - 2024</p>
             <div class="footer-buttons">
-                <a class="footer-button" href="/privacy">Privacy Polick</a>
-                <a class="footer-button" href="/faq">FAQ</a>
+                <a class="footer-button" href="/privacy.html">Privacy Policy</a>
+                <a class="footer-button" href="/faq.html">FAQ</a>
             </div>
-            <div class="social-icon">
-                <a class="icon" href="https://www.facebook.com/" target="_blank">
-                    <img src="ic_facebook.png">
-                </a>
-                <a class="icon" href="https://x.com/" target="_blank">
-                    <img src="ic_twitter.png">
-                </a>
-                <a class="icon" href="https://www.youtube.com/" target="_blank">
-                    <img src="ic_youtube.png">
-                </a>
-                <a class="icon" href="https://www.instagram.com/" target="_blank">
-                    <img src="ic_instagram.png">
-                </a>
-            </div>
+            <ul class="social-icon">
+                <li>
+                    <a class="icon" href="https://www.facebook.com/" target="_blank">
+                        <img src="icon-img/facebook-icon.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="icon" href="https://x.com/" target="_blank">
+                        <img src="icon-img/twitter-icon.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="icon" href="https://www.youtube.com/" target="_blank">
+                        <img src="icon-img/youtube-icon.png">
+                    </a>
+                </li>
+                <li>    
+                    <a class="icon" href="https://www.instagram.com/" target="_blank">
+                    <img src="icon-img/instagram-icon.png">
+                    </a>
+                </li>    
+            </ul>
         </div>
     </footer>
 </body>
