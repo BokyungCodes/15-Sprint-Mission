@@ -26,49 +26,54 @@
   --font-size-base: 16px;
 }
 
-/* Common font weights  */
-.font-bold {
-  font-weight: 700;
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 9.5px 20%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  min-width: 320px;
 }
 
-.font-semibold {
-  font-weight: 600;
+picture {
+  display: flex;
+  align-items: center;
 }
 
-.font-medium {
-  font-weight: 500;
+.header__logo img {
+  width: 153px;
 }
 
-.font-regular {
-  font-weight: 400;
+.header__login {
+  width: 128px;
+  height: 48px;
+  padding: 12px 23px;
+  color: white;
+  background-color: var(--primary-100);
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
 }
 
-/* Font size utilities */
-.text-3xl {
-  font-size: 32px;
-  line-height: 42px;
+.header__login:hover {
+  background-color: var(--primary-200);
 }
-.text-2xl {
-  font-size: 24px;
-  line-height: 32px;
+
+@media (max-width: 744px) {
+  .header {
+    padding: 0 10%;
+  }
 }
-.text-xl {
-  font-size: 20px;
-  line-height: 32px;
-}
-.text-lg {
-  font-size: 16px;
-  line-height: 26px;
-}
-.text-md {
-  font-size: 14px;
-  line-height: 24px;
-}
-.text-sm {
-  font-size: 13px;
-  line-height: 22px;
-}
-.text-xs {
-  font-size: 12px;
-  line-height: 18px;
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 5%;
+  }
+
+  .header__logo img {
+    width: 103px;
+  }
 }
