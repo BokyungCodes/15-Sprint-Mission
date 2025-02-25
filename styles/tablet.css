@@ -1,0 +1,78 @@
+/* 반응형 : 타블릿 (PC의 0.6배) */
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  /* header */
+  header {
+    padding: 9.5px 120px;
+  }
+
+  .btn-login {
+    width: 76px;
+    height: 40px;
+  }
+
+  /* banner */
+  .home-top-banner {
+    padding-top: 120px;
+  }
+
+  .banner-title,
+  .section-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .image-top-banner {
+    width: 447px;
+    height: auto;
+  }
+
+  .banner-content {
+    width: 214px;
+  }
+
+  .btn-explore {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .bottom-banner {
+    padding-top: 100px;
+  }
+
+  .image-bottom-banner {
+    width: 400px;
+    height: auto;
+  }
+
+  /* section */
+  .section-hot-item,
+  .section-search,
+  .section-register {
+    width: 600px;
+    height: 266px;
+    margin: 82px 0;
+    gap: 30px;
+  }
+
+  section img {
+    width: 358px;
+    height: 266px;
+  }
+
+  .section-badge {
+    margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-content {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  /* footer */
+  footer > div {
+    padding: 0 120px;
+  }
+}
