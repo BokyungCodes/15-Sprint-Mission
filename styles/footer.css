@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  background-color: var(--secondary-900);
+  color: var(--secondary-400);
+  padding: 32px 400px;
+  line-height: 19.09px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__link {
+  color: var(--secondary-200);
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: var(--secondary-50);
+}
+
+.footer__sns {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__icon img {
+  width: 20px;
+  height: 20px;
+}
