@@ -31,6 +31,62 @@ body {
   overflow-x: hidden;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.info__container {
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__wrapper {
+  width: 988px;
+  height: 444px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  background-color: #fcfcfc;
+  border-radius: 12px;
+}
+
+.info__wrapper--reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info__image {
+  width: 579px;
+  height: 444px;
+}
+
+.info__category {
+  color: var(--primary-100);
+  font-size: 18px !important;
+}
+
+.info__title {
+  color: var(--secondary-700);
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+}
+
+.info__description {
+  color: var(--secondary-700);
+}
+
 /* 반응형 태블릿 */
 /* @media (max-width: 744px) {
   .header {
@@ -39,7 +95,7 @@ body {
 } */
 
 /* 반응형 모바일 */
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .header {
     padding: 9.5px 5%;
   }
@@ -47,11 +103,11 @@ body {
   .header__logo img {
     width: 103px;
   }
-} */
+}
 
 @media (max-width: 1135px) {
   .header {
-    padding: 9.5px 100px;
+    padding: 9.5px 10%;
   }
 
   .banner {
@@ -86,14 +142,6 @@ body {
 }
 
 @media (max-width: 765px) {
-  .header {
-    padding: 9.5px 10%;
-  }
-
-  .header__logo img {
-    width: 103px;
-  }
-
   .banner {
     height: 540px;
   }
