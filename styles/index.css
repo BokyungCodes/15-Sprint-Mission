@@ -31,10 +31,6 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  margin-bottom: 160px;
-}
-
 /* 정보 섹션 반응형(테블릿) */
 @media (max-width: 1010px) {
   .info {
