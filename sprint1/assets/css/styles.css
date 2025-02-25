@@ -73,6 +73,14 @@ h6 {
     cursor: pointer;
 }
 
+.login-btn:hover {
+    background-color: #1967D6;
+}
+
+.login-btn:active {
+    background-color: #1251AA;
+}
+
 /* 메인 */
 .main {
     background-color: #FCFCFC;
@@ -124,6 +132,14 @@ h6 {
     border: none;
     white-space: nowrap;
     cursor: pointer;
+}
+
+.items-btn:hover {
+    background-color: #1967D6;
+}
+
+.items-btn:active {
+    background-color: #1251AA;
 }
 
 .center-section {
@@ -180,4 +196,57 @@ h6 {
 
 .bottom-banner {
     gap: 69px;
+}
+
+/* 푸터 */
+.footer {
+    background-color: #111827;
+    margin: 0 auto;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.icons {
+    color: #FFFFFF;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 200px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: start;
+}
+
+.copyright {
+    color: #9CA3AF;
+}
+
+.footer-btn {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-btn a {
+    color: #E5E7EB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    font-size: 20px;
+    gap: 12px;
+}
+
+.icons a {
+    color: #FFFFFF;
+    cursor: pointer;
 }
