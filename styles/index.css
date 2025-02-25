@@ -31,6 +31,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  margin-bottom: 160px;
+}
+
 /* 정보 섹션 반응형(테블릿) */
 @media (max-width: 1010px) {
   .info {
@@ -121,7 +125,7 @@ body {
   }
 }
 
-/* 헤더 반응형(모바일) */
+/* 헤더 반응형(모바일), 푸터 반응형(모바일) */
 @media (max-width: 480px) {
   .header {
     padding: 9.5px 5%;
@@ -129,6 +133,35 @@ body {
 
   .header__logo img {
     width: 103px;
+  }
+
+  .footer {
+    padding: 32px 16px;
+  }
+
+  .footer__container {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    grid-template-columns: 1fr / 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .footer__nav {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer__sns {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer__copyright {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
   }
 }
 
@@ -240,5 +273,12 @@ body {
   .bottom_banner .banner__image {
     width: 375px;
     height: 198px;
+  }
+}
+
+/* 푸터 반응형(테블릿) */
+@media (max-width: 1300px) {
+  .footer {
+    padding: 32px 24px;
   }
 }
