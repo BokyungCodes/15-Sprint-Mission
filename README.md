@@ -4,7 +4,8 @@
 
 - [x] 피그마 디자인에 맞게 페이지 제작
 - [x] UI 라이브러리 없이 진행
-- [ ] HTML, CSS 파일을 Netlify로 배포
+- [x] HTML, CSS 파일을 Netlify로 배포
+      -> https://myungjiwoo-panda-market.netlify.app/
 - [x] PC 사이즈 기준
 
 ### 체크 리스트 (기본)
