@@ -27,7 +27,7 @@
 }
 
 body {
-  min-width: 320px;
+  min-width: 350px;
   overflow-x: hidden;
 }
 
@@ -220,6 +220,7 @@ body {
 @media (max-width: 765px) {
   .banner {
     height: 540px;
+    overflow: hidden;
   }
 
   .bottom_banner {
