@@ -89,10 +89,45 @@ body {
 
 /* 반응형 태블릿 */
 /* @media (max-width: 744px) {
-  .header {
-    padding: 9.5px 10%;
-  }
 } */
+
+@media (max-width: 1010px) {
+  .info {
+    margin: 24px;
+    gap: 52px;
+  }
+
+  .info__container {
+    height: 750px;
+    gap: 52px;
+  }
+
+  .info__wrapper {
+    width: 696px;
+    height: 750px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .info__title br {
+    display: none;
+  }
+
+  .info__image {
+    width: 696px;
+    height: 524px;
+  }
+
+  .info__content {
+    align-self: flex-start;
+    padding-left: 24px;
+  }
+
+  .info__wrapper--reverse .info__content {
+    align-self: flex-end;
+    padding-right: 24px;
+  }
+}
 
 /* 반응형 모바일 */
 @media (max-width: 480px) {
