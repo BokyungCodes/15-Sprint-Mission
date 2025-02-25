@@ -70,6 +70,57 @@ body {
   }
 }
 
+/* 정보 섹션 반응형(모바일) */
+@media (max-width: 725px) {
+  .info {
+    margin: 52px 15px;
+    gap: 40px;
+  }
+
+  .info__container {
+    height: 440px;
+    gap: 40px;
+  }
+
+  .info__wrapper {
+    width: 344px;
+    height: 440px;
+    gap: 40px;
+  }
+
+  .info__content {
+    gap: 8px;
+  }
+
+  .info__image {
+    width: 344px;
+    height: 259px;
+  }
+
+  .info__category {
+    font-size: 16px !important;
+  }
+
+  .info__title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    margin-bottom: 8px;
+  }
+
+  .info__description {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  .info__content {
+    padding-left: 10px;
+  }
+
+  .info__wrapper--reverse .info__content {
+    padding-right: 10px;
+  }
+}
+
 /* 헤더 반응형(모바일) */
 @media (max-width: 480px) {
   .header {
