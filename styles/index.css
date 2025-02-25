@@ -31,66 +31,7 @@ body {
   overflow-x: hidden;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
-}
-
-.info__container {
-  height: 720px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.info__wrapper {
-  width: 988px;
-  height: 444px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 64px;
-  background-color: #fcfcfc;
-  border-radius: 12px;
-}
-
-.info__wrapper--reverse {
-  flex-direction: row-reverse;
-  text-align: right;
-}
-
-.info__content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.info__image {
-  width: 579px;
-  height: 444px;
-}
-
-.info__category {
-  color: var(--primary-100);
-  font-size: 18px !important;
-}
-
-.info__title {
-  color: var(--secondary-700);
-  letter-spacing: 0.02em;
-  margin-bottom: 12px;
-}
-
-.info__description {
-  color: var(--secondary-700);
-}
-
-/* 반응형 태블릿 */
-/* @media (max-width: 744px) {
-} */
-
+/* 정보 섹션 반응형(테블릿) */
 @media (max-width: 1010px) {
   .info {
     margin: 24px;
@@ -129,7 +70,7 @@ body {
   }
 }
 
-/* 반응형 모바일 */
+/* 헤더 반응형(모바일) */
 @media (max-width: 480px) {
   .header {
     padding: 9.5px 5%;
@@ -140,6 +81,7 @@ body {
   }
 }
 
+/* 배너 섹션 반응형(테블릿), 헤더 반응형(테블릿) */
 @media (max-width: 1135px) {
   .header {
     padding: 9.5px 10%;
@@ -176,6 +118,7 @@ body {
   }
 }
 
+/* 배너 섹션 반응형(모바일) */
 @media (max-width: 765px) {
   .banner {
     height: 540px;
