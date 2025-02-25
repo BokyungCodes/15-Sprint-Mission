@@ -1,0 +1,40 @@
+header {
+  max-width: 1920px;
+  width: 100%;
+  padding: 9.5px 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+
+  background-color: #ffffff;
+}
+
+.image-logo {
+  width: 153px;
+  flex-shrink: 0;
+
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 128px;
+  height: 48px;
+
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  background-color: #3692ff;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+
+  cursor: pointer;
+}

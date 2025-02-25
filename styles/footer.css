@@ -1,0 +1,58 @@
+footer {
+  width: 100%;
+  padding: 32px 0 108px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #111827;
+}
+
+footer > div {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-company {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-wrap: nowrap;
+  color: #9ca3af;
+
+  flex-shrink: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  text-wrap: nowrap;
+
+  flex-shrink: 0;
+}
+
+.footer-links > a,
+.footer-links > a:visited {
+  color: #ffffff;
+}
+
+.footer-sns {
+  display: flex;
+  gap: 12px;
+
+  flex-shrink: 0;
+}
+
+.footer-sns img {
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
