@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@import url("fonts.css");
+
+/* -----------------------------------------------
+[COMMON] 공통 변수
+------------------------------------------------- */
+:root {
+/* 배경색상 */
+--bg1:#fff;
+--bg2:#FCFCFC;
+--bg3:#f7f7f7;
+--bg4:var(--point1);
+--bg5:#CFE5FF;
+--bg6:#111827;
+--bg-disable:#4a4a4c;
+
+/* 폰트색상 */
+--color1:#F9FAFB;
+--color2:#9CA3AF;
+--color3:#374151;
+--color4:var(--point1);
+
+/* 포인트 색상 */
+--point1:#3692FF;
+--point2:#0a60c9;
+--point3:#032f64;
+
+/* 폰트사이즈 */
+--font_b_38:800 3.8rem/1.2 "Pretendard";
+--font_b_18:800 1.8rem/1 "Pretendard";
+--font_r_22:600 2.2rem / 1.4 "Pretendard";
+--font_sb_20:400 2.0rem/3.2 "Pretendard";
+--font_sb_16:500 1.6rem/1 "Pretendard";
+}
+/* -----------------------------------------------
+	[COMMON] 초기화
+------------------------------------------------- */
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {margin:0;padding:0;}
+body, button, input, select, table, textarea {font-size:10px; line-height:1.5; color:var(--color3);font-family:Pretendard, NotoSansKR,apple-system,system-ui,Roboto,sans-serif;font-weight:400;}
+html * {box-sizing:border-box; word-wrap:break-word;}
+html {font-size:10px;}
+body {box-sizing:border-box; font-size:1.4rem; letter-spacing:-0.035rem; word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-user-select:none;user-select:none;}
+html, body {width:100%; min-width:32rem; height:100%;}
+button, input {-webkit-border-radius:0; border-radius:0; border:0;}
+button {background-color:transparent; -webkit-appearance:button; appearance:button; cursor:pointer; font-size:1.4rem;}
+fieldset, img {border:0;}
+fieldset {min-inline-size:0%}
+table {border-collapse:collapse; border-spacing:0;}
+legend, caption, .hidden {text-indent:-5000px; font-size:0; line-height:0; width:0; height:0; overflow:hidden;}
+img {vertical-align:middle; width: 100%;}
+ol, ul {list-style:none;}
+address, em {font-style:normal;}
+time {font-family:"Pretendard";}
+a {color:inherit; text-decoration:none; cursor: pointer;}
+a:hover, a:focus, a:active, a:visited{text-decoration:none;}
+/* focus outline */
+a:focus{outline:1px solid var(--point1);}
+
+select {appearance:none; -webkit-appearance:none; display:inline-block; vertical-align:middle; width:100%; height:2.5rem; font-size:18px; background:url("") right 20px center no-repeat;background-size:16px 16px;border-radius:6px;border:1px solid #ddd;background-color:#fff;}
+select:disabled {background-color:#eee;}
+input {appearance:none; -webkit-appearance:none;}
+textarea {border:1px solid #ebebeb; border-radius:5px; font-size:1.4rem; padding:1.4rem 0 0 1.5rem; width:100%; min-height:13rem;}
+.hidden {border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0;position:absolute; width:1px;}
+.none {display:none !important;}
+/* skip nav */
+.skipNav {background:#000; position:fixed; top:0; left:0; width:100%; height:3rem; transform:translateY(-100%); transition:transform 0.3s;z-index:999;color:#fff;line-height:3.0rem;text-align:center;}
+.skipNav:focus {transform:translateY(0%);}
