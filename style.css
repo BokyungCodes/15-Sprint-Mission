@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #dfdfdf;
+    gap: 10px;
+}
+
+section {
+    height: 540px;
+    background-color: #CFE5FF;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+article {
+    height: 720px;
+}
+
+footer {
+    height: 160px;
+    background-color: #111827;
+}
