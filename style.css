@@ -14,10 +14,24 @@ body {
 
 header {
   background-color: #FFFFFF;
+  border-bottom: 1px solid #DDE0E3
+}
+
+.gnb {
+  padding: 9px 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   background-color: #111827;
+}
+
+.wrap {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .home-top {
@@ -42,8 +56,11 @@ footer {
 }
 
 .btn-login {
+  width: 128px;
+  height: 48px;
   padding: 12px 23px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .btn-large {
@@ -81,4 +98,10 @@ footer {
 .text-2lg {
   font-size: 18px;
   line-height: 26px;
+}
+
+@media (max-width:1920px) {
+  .gnb {
+    padding: 9px 200px
+  }
 }
