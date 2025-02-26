@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Pretendard, sans-serif;
+  color: #374151;
 }
 
 a {
@@ -51,11 +52,11 @@ footer {
 }
 
 .btn-large, .btn-login{
-  color: #F3F4F6;
   background-color: #3692FF;
 }
 
 .btn-login {
+  color: #F3F4F6;
   width: 128px;
   height: 48px;
   padding: 12px 23px;
@@ -64,8 +65,26 @@ footer {
 }
 
 .btn-large {
+  color: #F9FAFB;
   padding: 16px 124px;
   border-radius: 40px;
+}
+
+.keyword {
+  color: #3692FF;
+}
+
+.copyright, .faq {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.copyright {
+  color: #9CA3AF;
+}
+
+.faq a {
+  color: #E5E7EB;
 }
 
 .bold {
