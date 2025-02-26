@@ -35,11 +35,25 @@ footer {
   margin: 0 auto;
 }
 
-.home-top {
+.home-top-section {
   background-color: #CFE5FF;
+  height: 540px;
 }
 
-.home {
+.home-top {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.home-top-content{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4%;
+}
+
+.home-section {
   background-color: #FFFFFF;
 }
 
@@ -47,7 +61,7 @@ footer {
   background-color: #FCFCFC;
 }
 
-.home-bottom {
+.home-bottom-section {
   background-color: #CFE5FF;
 }
 
