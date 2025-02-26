@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   margin: 0;
   background-color: #FCFCFC;
@@ -50,15 +54,42 @@ footer {
 .home-top-content{
   display: flex;
   flex-direction: column;
+  gap: 32px;
   padding-bottom: 4%;
 }
 
-.home-section {
+.home {
   background-color: #FFFFFF;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.home-1, .home-2, .home-3 {
+.home-content{
   background-color: #FCFCFC;
+  display: flex;
+  justify-content: center;
+  gap: 64px; 
+  border-radius: 12px;
+  width: 1040px;
+}
+
+.home-content-1, .home-content-2, .home-content-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.home-content-2 {
+  text-align: end;
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+.home-describe {
+  margin-top: 24px;
 }
 
 .home-bottom-section {
@@ -86,6 +117,7 @@ footer {
 
 .keyword {
   color: #3692FF;
+  margin-bottom: 12px;
 }
 
 .copyright, .faq {
@@ -116,11 +148,13 @@ footer {
 .text-4xl {
   font-size: 40px;
   line-height: 56px;
+  letter-spacing: -2px;
 }
 
 .text-2xl {
   font-size: 24px;
   line-height: 32px;
+  letter-spacing: -1px;
 }
 
 .text-xl {
