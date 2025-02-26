@@ -129,8 +129,16 @@ footer {
   gap: 12px;
 }
 
-.btn-large, .btn-login{
+.btn-large, .btn-login {
   background-color: #3692FF;
+}
+
+.btn-large:hover, .btn-login:hover {
+  background-color: #1967D6;
+}
+
+.btn-large:active, .btn-login:active {
+  background-color: #1251AA;
 }
 
 .btn-login {
