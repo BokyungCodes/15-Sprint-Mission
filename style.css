@@ -22,15 +22,16 @@ header {
   border-bottom: 1px solid #DDE0E3
 }
 
+footer {
+  background-color: #111827;
+  height: 160px;
+}
+
 .gnb {
   padding: 9px 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-footer {
-  background-color: #111827;
 }
 
 .wrap {
@@ -107,6 +108,25 @@ footer {
 
 .home-bottom-content {
   padding-bottom: 10%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+  padding-top: 1.5%;
+}
+
+.faq, .sns {
+  display: flex;
+}
+
+.faq {
+  gap: 36px;
+}
+
+.sns {
+  gap: 12px;
 }
 
 .btn-large, .btn-login{
