@@ -94,6 +94,19 @@ footer {
 
 .home-bottom-section {
   background-color: #CFE5FF;
+  height: 540px;
+}
+
+.home-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 64px;
+}
+
+.home-bottom-content {
+  padding-bottom: 10%;
 }
 
 .btn-large, .btn-login{
