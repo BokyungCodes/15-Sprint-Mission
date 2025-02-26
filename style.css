@@ -12,10 +12,11 @@
 }
 
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -58,6 +59,21 @@ nav {
   line-height: 26px;
 }
 
+.btn-login:hover {
+  background-color: #1967d6;
+}
+
+.btn-login:active {
+  background-color: #1251aa;
+}
+
+/* aria-disabled="true" 속성을 사용하여 버튼 비활성화 */
+.btn-login[aria-disabled="true"] {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 /* main 영역 banner */
 .main-banner {
   padding-top: 200px;
@@ -88,11 +104,26 @@ nav {
 }
 
 .btn-items {
-  background-color: #3692FF;
+  background-color: #3692ff;
   width: 357px;
   height: 56px;
   padding: 16px 124px;
   border-radius: 40px;
+}
+
+.btn-items:hover {
+  background-color: #1967d6;
+}
+
+.btn-items:active {
+  background-color: #1251aa;
+}
+
+/* aria-disabled="true" 속성을 사용하여 버튼 비활성화 */
+.btn-items[aria-disabled="true"] {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .banner-wrap img {
@@ -151,7 +182,7 @@ nav {
 }
 
 .content-text .badge {
-  color: #3692FF;
+  color: #3692ff;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
