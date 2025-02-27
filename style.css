@@ -92,13 +92,50 @@ header .login {
     width: 746px;
 }
 
+
 main {
     background-color: #FFFFFF;
 }
 
 article {
     height: 720px;
+    align-content: center;
 }
+
+article > div {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-top {
+    color: #3692FF;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.article-explain {
+    color: #374151;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 133.33%;
+}
+
+article img {
+    height: 444px;
+}
+
+article .right {
+    flex-direction: row-reverse;
+}
+
+article .right .article-text {
+    text-align: right;
+}
+
 
 footer {
     height: 160px;
