@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>판다마켓</title>
+
+    <meta name="description" content="판다마켓 - Sprint-Mission 1" />
+    <meta name="keywords" content="판다마켓" />
+    <meta name="author" content="Codeit Sprint FrontEnd" />
+
+    <meta property="og:title" content="판다마켓" />
+    <meta property="og:description" content="판다마켓 - Sprint-Mission 1" />
+    <!-- <meta property="og:image" content="배포 후 추가 예정" /> -->
+    <!-- <meta property="og:url" content="배포 후 추가 예정"/> -->
+
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/info.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header__logo">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/logos/logo_typo.png" />
+          <img src="./assets/logos/logo_sm.png" alt="판다마켓 로고" />
+        </picture>
+      </a>
+      <a href="/login" class="header__login font-semibold text-lg">로그인</a>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="banner__container">
+          <div class="banner__content">
+            <p class="banner__title font-bold text-4xl">
+              일상의 모든 물건을<br />
+              거래해보세요
+            </p>
+            <a href="/items" class="banner__button font-semibold text-xl">구경하러 가기</a>
+          </div>
+          <img src="./assets/images/Img_home_top.png" alt="판다마켓 배너 이미지" class="banner__image" />
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="info__container">
+          <div class="info__wrapper">
+            <img src="./assets/images/Img_home_01.png" alt="인기 상품" class="info__image" />
+            <div class="info__content">
+              <p class="info__category text-lg font-bold">Hot item</p>
+              <p class="info__title text-4xl font-bold">
+                인기 상품을<br />
+                확인해 보세요
+              </p>
+              <p class="info__description text-2xl font-medium">
+                가장 HOT한 중고거래 물품을<br />
+                판다 마켓에서 확인해 보세요
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info__container">
+          <div class="info__wrapper info__wrapper--reverse">
+            <img src="./assets/images/Img_home_02.png" alt="상품 검색" class="info__image" />
+            <div class="info__content">
+              <p class="info__category text-lg font-bold">Search</p>
+              <p class="info__title text-4xl font-bold">
+                구매를 원하는<br />
+                상품을 검색하세요
+              </p>
+              <p class="info__description text-2xl font-medium">
+                구매하고 싶은 물품은 검색해서<br />
+                쉽게 찾아보세요
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info__container">
+          <div class="info__wrapper">
+            <img src="./assets/images/Img_home_03.png" alt="상품 등록" class="info__image" />
+            <div class="info__content">
+              <p class="info__category text-lg font-bold">Register</p>
+              <p class="info__title text-4xl font-bold">
+                판매를 원하는<br />
+                상품을 등록하세요
+              </p>
+              <p class="info__description text-2xl font-medium">
+                어떤 물건이든 판매하고 싶은 상품을<br />
+                쉽게 등록하세요
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom_banner banner">
+        <div class="banner__container">
+          <div class="banner__content">
+            <p class="banner__title font-bold text-4xl">
+              믿을 수 있는<br />
+              판다마켓 중고 거래
+            </p>
+          </div>
+          <img src="./assets/images/Img_home_bottom.png" alt="판다마켓 바텀 배너 이미지" class="banner__image" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__copyright">@codeit - 2025</p>
+
+        <nav class="footer__nav">
+          <a href="/privacy" class="footer__link">Privacy Policy</a>
+          <a href="/faq" class="footer__link">FAQ</a>
+        </nav>
+
+        <div class="footer__sns">
+          <a href="https://facebook.com" target="_blank" class="footer__icon">
+            <img src="./assets/icons/icon_facebook.svg" alt="Facebook" />
+          </a>
+          <a href="https://x.com" target="_blank" class="footer__icon">
+            <img src="./assets/icons/icon_x.svg" alt="X" />
+          </a>
+          <a href="https://youtube.com" target="_blank" class="footer__icon">
+            <img src="./assets/icons/icon_youtube.svg" alt="YouTube" />
+          </a>
+          <a href="https://instagram.com" target="_blank" class="footer__icon">
+            <img src="./assets/icons/icon_instagram.svg" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
