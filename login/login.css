@@ -1,0 +1,127 @@
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 전체 화면을 감싸는 컨테이너 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 로그인 박스 */
+.login-container {
+    width: 640px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+/* 로고 */
+.logo img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+
+/* 입력 그룹 */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    height: 56px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f3f4f6;
+}
+
+/* 비밀번호 입력 + 아이콘 */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* 로그인 버튼 */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3692FF;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 56px;
+}
+
+.login-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* 소셜 로그인 */
+.social-login {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    background: #E6f2ff;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+/* 회원가입 */
+.signup-text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.signup-text a {
+    color: #3692FF;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a {color: inherit; text-decoration: none; outline: none} a:hover, a:active {text-decoration: none;}
+.wrap {
+    width: 100%;
+    height: auto;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+header .container {
+    width: calc(100% - 27vw);
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon {
+    background-image: url(/images/Group\ 19.png);
+    width: 153px;
+    height: 51px;
+    cursor: pointer;
+}
+.login {
+    background: #3692FF;
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    cursor: pointer;
+}
+.login:hover {
+    background: #1251AA;
+}
+nav {
+    width: 100%;
+    height: 540px;
+    background: #cfe5ff;
+    display: flex;
+}
+nav .container {
+    width: calc(100% - 27vw);
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr / 1fr  1fr;
+    align-items: end;
+    flex-direction: row;
+}
+.navDesc h4{
+    font-size: 1.4em;
+    color: #374151;
+}
+.navDesc button {
+    margin-bottom: 30%;
+    margin-top: 30px;
+    width: 20vw;
+    height: 46px;
+    color: #fff;
+    background: #3692FF;
+    border-radius: 40px;
+    border: none;
+}
+.navDesc button:hover {
+    background: #1251AA;
+}
+.navImgWrap {
+    width: 51vw;
+    height: 21vw;
+}
+.navImg {
+    background-image: url(/images/Img_home_top.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 10%;
+}
+main .container {
+    width: calc(100% - 32vw);
+    margin: 0 auto;
+    /* background: #000; */
+    height: auto;
+}
+.mainWrap {
+    width: 100%;
+    height: 444px;
+    display: flex;
+    background: #fcfcfc;
+    margin-top: 10%;
+}
+.hotImg{
+    background-image: url(/images/Img_home_01.png);
+    width: 60%;
+    height: 444px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.searImg{
+    background-image: url(/images/Img_home_02.png);
+    width: 60%;
+    height: 444px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainTxt {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.txtWrap {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.searchtxtWrap {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.SPANtitleTxt {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3692FF;
+    line-height: 4;
+}
+.h4titleTxt {
+    font-weight: bold;
+    font-size: 30px;
+}
+.PtitleTxt {
+    margin-top: 20px;
+    font-size: 24px;
+    white-space: nowrap;
+
+}
+aside {
+    width: 100%;
+    height: 540px;
+    background: #cfe5ff;
+    display: flex;
+}
+aside .container {
+    width: calc(100% - 37vw);
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr / 1fr  1fr;
+    align-items: end;
+    flex-direction: row;
+}
+aside h4{
+    font-size: 2em;
+    color: #374151;
+    margin-bottom: 30%;
+}
+.asideImgWrap {
+    width: 44vw;
+    height: 22vw;
+}
+.asideImg {
+    background-image: url(/images/Img_home_bottom.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    height: 160px;
+    background: #111827;
+    display: flex;
+    padding-top: 30px;
+}
+.footerTxtWrap {
+    display: flex; 
+    gap: 20px; 
+}
+
+footer .container {
+    width: calc(100% - 27vw);
+    margin: 0 auto;
+    height: auto;
+    /* background: #fff; */
+}
+.footerTxt {
+    color: #9ca3af;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconWrap {
+    display: flex;
+    gap: 20px;
+}
+.facebook {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(/images/ic_facebook.svg);
+    cursor: pointer;
+}
+.twitter {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(/images/ic_twitter.svg);
+    cursor: pointer;
+}
+.youtube {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(/images/ic_youtube.svg);
+    cursor: pointer;
+}
+.insta {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(/images/ic_instagram.svg);
+    cursor: pointer;
+}
+.txt2, .txt3 {
+    cursor: pointer;
+    color: #374151;
+}
+@media (max-width: 800px) {
+    header .container {
+        width: 100%;
+        padding: 10px;
+    }
+    nav {
+        height: 771px;
+        position: relative;
+        background: #cfe5ff;
+    }
+    nav .container {
+        display: flex;
+        width: auto; 
+        width: 100%;
+        
+        text-align: center;
+    }
+    nav .navImgWrap {
+        width: 100%;
+        height: 23vh;
+    }
+    nav .navImgWrap .navImg {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .navDesc {
+        position: absolute;
+        top: 10%;
+    }
+    .navDesc h4 {
+        font-size: 2vw;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+    .navDesc button {
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 357px;
+    }
+}
+@media (max-width: 375px) {
+    nav {
+        height: 540px;
+        position: relative;
+        background: #cfe5ff;
+    }
+    nav .container {
+        display: flex;
+        width: auto; 
+        width: 100%;
+        text-align: center;
+    }
+    nav .navImgWrap {
+        width: 120vw;
+        height: 10vh;
+    }
+    nav .navImgWrap .navImg {
+        width: 100%;
+        height: 10vh;
+        background-repeat: no-repeat;
+    }
+    .navDesc {
+        display: flex;              /* 중앙 정렬을 위해 flexbox 사용 */
+        justify-content: center;    /* 가로 중앙 정렬 */
+        align-items: center;        /* 세로 중앙 정렬 */
+        flex-direction: column;     /* 텍스트와 버튼을 세로로 배치 */
+        text-align: center;
+    }
+    .navDesc h4 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .navDesc button {
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 240px;
+    }
+}
