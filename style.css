@@ -44,9 +44,49 @@ header .login {
     align-content: center;
 }
 
-section {
+
+.banner {
     height: 540px;
     background-color: #CFE5FF;
+    align-content: end;
+}
+
+.banner > div {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .banner-explain {
+    margin-bottom: 60px;
+}
+
+.banner h1 {
+    display: block;
+    color: #374151;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner a {
+    width: 357px;
+    height: 56px;
+    margin-top: 32px;
+    border-radius: 40px;
+    background-color: #3692FF;
+    color: #F9FAFB;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    display: block;
+}
+
+.banner img {
+    width: 746px;
 }
 
 main {
