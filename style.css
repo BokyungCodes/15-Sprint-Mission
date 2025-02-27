@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: white;
+  padding: 10px 200px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.nav-logo,
+.nav-login-button {
+  flex-shrink: 0;
+}
+
+.nav-logo-img {
+  width: 153px;
+}
+
+.nav-login-button {
+  display: flex;
+  background-color: #3692ff;
+  padding: 12px 32px;
+  border-radius: 5px;
+}
