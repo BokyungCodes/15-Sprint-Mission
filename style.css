@@ -2,10 +2,12 @@
   box-sizing: border-box;
   font-family: Pretendard, sans-serif;
   color: #374151;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 p {
@@ -55,7 +57,7 @@ footer {
 .home-top-content{
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
   padding-bottom: 4%;
 }
 
@@ -71,7 +73,7 @@ footer {
   background-color: #FCFCFC;
   display: flex;
   justify-content: center;
-  gap: 64px; 
+  gap: 4rem; 
   border-radius: 12px;
   width: 1040px;
 }
@@ -80,17 +82,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .home-content-2 {
   text-align: end;
   margin-right: 0;
-  margin-left: 12px;
+  margin-left: 0.75rem;
 }
 
 .home-describe {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 .home-bottom-section {
@@ -103,7 +105,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 64px;
+  gap: 4rem;
 }
 
 .home-bottom-content {
@@ -122,11 +124,11 @@ footer {
 }
 
 .faq {
-  gap: 36px;
+  gap: 2rem;
 }
 
 .sns {
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .btn-large, .btn-login {
@@ -143,16 +145,16 @@ footer {
 
 .btn-login {
   color: #F3F4F6;
-  width: 128px;
-  height: 48px;
-  padding: 12px 23px;
+  width: 8rem;
+  height: 3rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-align: center;
 }
 
 .btn-large {
   color: #F9FAFB;
-  padding: 16px 124px;
+  padding: 1rem 7.75rem;
   border-radius: 40px;
 }
 
@@ -162,7 +164,7 @@ footer {
 }
 
 .copyright, .faq {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -187,29 +189,35 @@ footer {
 }
 
 .text-4xl {
-  font-size: 40px;
-  line-height: 56px;
-  letter-spacing: -2px;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.125rem;
 }
 
 .text-2xl {
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -1px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.0625rem;
 }
 
 .text-xl {
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .text-2lg {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
 }
 
 @media (max-width:1920px) {
   .gnb {
     padding: 9px 200px
+  }
+}
+
+@media (max-width:1280px) {
+  * {
+    font-size: 12px;
   }
 }
