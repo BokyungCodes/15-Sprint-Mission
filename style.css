@@ -61,6 +61,10 @@ header .login {
     align-content: end;
 }
 
+.banner.bottom {
+    margin-top: 138px;
+}
+
 .banner > div {
     width: 1110px;
     margin: 0 auto;
