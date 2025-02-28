@@ -9,28 +9,34 @@
   <body>
     <div class="login-container">
       <form class="login-form">
-        <img
-          src="assets/login-logo.png"
-          alt="로그인 화면 판다마켓 로고"
-          class="login-logo"
-        />
-        <label for="email">이메일</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="이메일"
-          class="login-input"
-        />
-        <label for="password">비밀번호</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="비밀번호"
-          class="login-input"
-        />
-        <button class="login-button" type="submit">로그인</button>
+        <div class="login-header">
+          <img
+            src="assets/login-logo.png"
+            alt="로그인 화면 판다마켓 로고"
+            class="login-logo"
+          />
+        </div>
+        <div class="login-input-container">
+          <label for="email">이메일</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="이메일"
+            class="login-input"
+          />
+          <label for="password">비밀번호</label>
+          <div id="password-input" class="login-input-container">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="비밀번호"
+              class="login-input"
+            />
+          </div>
+          <button class="login-button" type="submit">로그인</button>
+        </div>
         <div class="social-login">
           <p>간편 로그인하기</p>
           <ul class="social-login-container">

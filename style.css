@@ -184,10 +184,52 @@ a {
 .login-form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   padding: 32px;
-  border-radius: 8px;
   justify-content: center;
   align-items: center;
   width: 640px;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+}
+
+.login-logo {
+  width: 50%;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+label {
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.login-input {
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #f3f4f6;
+  border: none;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #3692ff;
+  padding: 16px;
+  border-radius: 36px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+.social-login {
+  display: flex;
 }
