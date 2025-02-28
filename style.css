@@ -200,9 +200,11 @@ a {
 .login-header {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .login-logo {
+  display: flex;
   width: 50%;
 }
 
