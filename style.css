@@ -197,14 +197,12 @@ a {
   width: 640px;
 }
 
-.login-header {
+.login-header a {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .login-logo {
-  display: flex;
   width: 50%;
 }
 
@@ -244,7 +242,7 @@ label {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 0 32px;
+  padding: 12px 32px;
   background-color: #e6f2ff;
   border-radius: 12px;
 }
