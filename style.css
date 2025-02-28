@@ -77,11 +77,11 @@ a {
   font-size: 20px;
   font-weight: 600;
 }
-
+/* display: block 또는 display:flex 해야 바닥에 딱 붙음 */
+/* 안 해주면 바닥에서 미세하게 살짝 뜹니다. 왜인지 잘 모르겠습니다. */
 .hero-image {
+  display: flex;
   max-width: 746px;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 
 /* main section styles */
@@ -90,6 +90,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 150px auto;
 }
 
 .feature-container {
