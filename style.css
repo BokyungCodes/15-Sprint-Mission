@@ -14,7 +14,13 @@ a {
   color: #fff;
 }
 
-.button:hover {
+.button,
+.login-button {
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.login-button:hover {
   cursor: pointer;
   background-color: #1967d6;
 }
@@ -228,8 +234,30 @@ label {
   font-size: 20px;
   font-weight: 600;
   border: none;
+  width: 100%;
 }
 
-.social-login {
+.social-login-container {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  background-color: #e6f2ff;
+  border-radius: 12px;
+}
+
+.social-login-icons {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.social-login-icon {
+  width: 40px;
+}
+
+.signup-link {
+  color: #3692ff;
+  text-decoration: underline;
 }

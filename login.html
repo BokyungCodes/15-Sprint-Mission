@@ -16,6 +16,7 @@
             class="login-logo"
           />
         </div>
+
         <div class="login-input-container">
           <label for="email">이메일</label>
           <input
@@ -24,37 +25,54 @@
             name="email"
             placeholder="이메일"
             class="login-input"
+            aria-label="이메일 입력"
           />
-          <label for="password">비밀번호</label>
-          <div id="password-input" class="login-input-container">
-            <input
-              type="password"
-              id="password"
-              name="password"
-              placeholder="비밀번호"
-              class="login-input"
-            />
-          </div>
-          <button class="login-button" type="submit">로그인</button>
         </div>
-        <div class="social-login">
+
+        <div class="login-input-container">
+          <label for="password">비밀번호</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="비밀번호"
+            class="login-input"
+            aria-label="비밀번호 입력"
+          />
+        </div>
+
+        <button class="login-button" type="submit">로그인</button>
+
+        <div class="social-login-container">
           <p>간편 로그인하기</p>
-          <ul class="social-login-container">
+          <ul class="social-login-icons">
             <li>
-              <a href="">
-                <img src="assets/google-icon.png" alt="구글 로그인" />
+              <a href="https://www.google.com" aria-label="구글 로그인">
+                <img
+                  src="assets/google-icon.png"
+                  alt="구글 로그인"
+                  class="social-login-icon"
+                />
               </a>
             </li>
             <li>
-              <a href=""
-                ><img src="assets/kakao-icon.png" alt="카카오 로그인"
-              /></a>
+              <a href="https://www.kakao.com" aria-label="카카오 로그인">
+                <img
+                  src="assets/kakao-icon.png"
+                  alt="카카오 로그인"
+                  class="social-login-icon"
+                />
+              </a>
             </li>
           </ul>
         </div>
-        <p class="login-signup">
-          판다마켓이 처음이신가요? <a href="signup.html">회원가입</a>
-        </p>
+
+        <div class="login-footer-container">
+          <p class="login-signup">
+            판다마켓이 처음이신가요?
+            <a href="signup.html" class="signup-link">회원가입</a>
+          </p>
+        </div>
       </form>
     </div>
   </body>
