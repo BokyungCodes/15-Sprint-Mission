@@ -132,3 +132,12 @@ a {
   line-height: 32px;
   color: #4b5563;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3692ff;
+  color: white;
+  padding: 32px 0;
+}
