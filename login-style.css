@@ -95,6 +95,9 @@ input {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
@@ -106,4 +109,44 @@ footer {
 
 footer a {
   color: #3692ff;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .header-logo {
+    width: 35rem;
+    height: 8rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 40rem;
+  }
+
+  .login-button {
+    width: 40rem;
+  }
+
+  .quick-login {
+    width: 40rem;
+  }
+
+  .button {
+    width: 4.5rem;
+  }
 }
