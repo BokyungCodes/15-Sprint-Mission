@@ -33,8 +33,23 @@ header {
   align-items: center;
 }
 
+header a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.header-title {
+  color: #3692ff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.46rem;
+  margin: 0;
+}
+
 .header-img {
-  width: 15.3rem;
+  width: 4.5rem;
   height: auto;
   cursor: pointer;
 }
@@ -272,6 +287,10 @@ main {
 }
 
 @media (max-width: 1024px) {
+  header {
+    padding: 0 24px;
+  }
+
   .top-banner {
     flex-direction: column;
     gap: 13rem;
@@ -392,11 +411,19 @@ main {
   }
 
   header {
-    padding: 0 50px;
+    padding: 0 16px;
   }
 
   .container {
     height: 400px;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .login-button {
+    padding: 0.7rem 2.3rem;
   }
 
   .top-banner {
@@ -413,8 +440,8 @@ main {
   }
 
   .item-button {
-    padding: 0.3rem 7rem;
-    font-size: 1.3rem;
+    padding: 0.7rem 7rem;
+    font-size: 1.7rem;
   }
 
   .main-description {
