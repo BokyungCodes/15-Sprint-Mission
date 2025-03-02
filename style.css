@@ -28,6 +28,7 @@ body {
 }
 
 header {
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   height: 7rem;
