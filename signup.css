@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  width: 35.6rem;
+  width: 39.6rem;
   height: 13.2rem;
   margin-bottom: 3rem;
 }
@@ -49,6 +49,22 @@ input {
   border-radius: 12px;
   width: 64rem;
   height: 5.6rem;
+}
+
+.password-page {
+  position: relative;
+}
+
+.password-repeat-page {
+  position: relative;
+}
+
+.password-eye {
+  position: absolute;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .login-button {
