@@ -27,10 +27,6 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 64rem;
-  height: auto;
 }
 
 form div {
