@@ -40,6 +40,18 @@
         </div>
 
         <div class="login-input-container">
+          <label for="nickname" class="input-label">닉네임</label>
+          <input
+            type="text"
+            id="nickname"
+            name="nickname"
+            placeholder="닉네임"
+            class="login-input"
+            aria-label="이메일 입력"
+          />
+        </div>
+
+        <div class="login-input-container">
           <label for="password" class="input-label">비밀번호</label>
           <div class="password-input-wraper">
             <input
@@ -51,6 +63,23 @@
               aria-label="비밀번호 입력"
             />
             <i class="fa-solid fa-eye-slash password-toggle-icon"></i>
+          </div>
+        </div>
+
+        <div class="login-input-container">
+          <label for="confirm-password" class="input-label"
+            >비밀번호 확인</label
+          >
+          <div class="password-input-wraper">
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="비밀번호 확인"
+              class="login-input"
+              aria-label="비밀번호 확인"
+            />
+            <i class="fa-solid fa-eye password-toggle-icon"></i>
           </div>
         </div>
 
@@ -82,8 +111,8 @@
 
         <div class="login-footer-container">
           <p class="login-signup">
-            판다마켓이 처음이신가요?
-            <a href="signup.html" class="signup-link">회원가입</a>
+            이미 회원이신가요?
+            <a href="login.html" class="signup-link">로그인</a>
           </p>
         </div>
       </form>
