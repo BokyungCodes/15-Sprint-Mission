@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="icon-img/panda-face.png" />
-    <title>로그인</title>
+    <title>회원가입</title>
     <link
       rel="stylesheet"
       crossorigin
@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="login-style.css" />
+    <link rel="stylesheet" href="signup-style.css" />
   </head>
   <body>
     <header>
@@ -29,20 +29,36 @@
     <main>
       <form>
         <div class="email-page">
-          <label for="email">이메일</label>
-          <input id="email" name="email" type="email" />
+          <label for="signup-email">이메일</label>
+          <input id="signup-email" name="email" type="email" />
+        </div>
+        <div class="name-page">
+          <label for="signup-name">닉네임</label>
+          <input id="signup-name" name="name" type="text" />
         </div>
         <div class="password-page">
-          <label for="password">비밀번호</label>
-          <input id="password" name="password" type="password" />
+          <label for="signup-password">비밀번호</label>
+          <input id="signup-password" name="password" type="password" />
           <img
             class="password-eye"
             src="icon-img/closed-eye.svg"
             alt="눈에 사선이 쳐진 아이콘"
           />
         </div>
-
-        <button class="login-button" type="submit">로그인</button>
+        <div class="password-repeat-page">
+          <label for="signup-password-repeat">비밀번호 확인</label>
+          <input
+            id="signup-password-repeat"
+            name="password-repeat"
+            type="password"
+          />
+          <img
+            class="password-eye"
+            src="icon-img/eye.svg"
+            alt="눈 모양 아이콘"
+          />
+        </div>
+        <button class="login-button" type="submit">회원가입</button>
       </form>
       <div class="quick-login">
         <div class="title">간편 로그인하기</div>
@@ -65,7 +81,7 @@
       </div>
     </main>
     <footer>
-      <div>판다마켓이 처음이신가요? <a href="signup.html">회원가입</a></div>
+      <div>이미 회원이신가요? <a href="login.html">로그인</a></div>
     </footer>
   </body>
 </html>
