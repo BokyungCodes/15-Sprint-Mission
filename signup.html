@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>판다마켓 로그인 페이지</title>
+    <title>판다마켓 회원가입 페이지</title>
     
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css" />
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div id="wrap-userinfo wrap-login">
+  <div id="wrap-userinfo wrap-signup">
     <div class="box-userinfo">
       <div class="wrap-logo">
         <img src="./img/logo.png" alt="판다마켓" />
@@ -21,17 +21,25 @@
       <div class="wrap-userinfo">
         <form>
           <fieldset>
-            <legend>판다마켓 로그인</legend>
-            <div class="main-login">
+            <legend>판다마켓 회원가입</legend>
+            <div class="main-signup">
               <div class="wrap-email">
                 <label for="email">이메일</label>
-                <input type="text" class="email" name="email" id="email" placeholder="codeit@email.com" />
+                <input type="email" class="email" name="email" id="email" placeholder="codeit@email.com" />
+              </div>
+              <div class="wrap-nickname">
+                <label for="nickname">닉네임</label>
+                <input type="text" class="nickname" name="nickname" id="nickname" placeholder="판다" />
               </div>
               <div class="wrap-pw">
                 <label for="pw">비밀번호</label>
                 <input type="password" class="pw" name="pw" id="pw" />
               </div>
-              <button type="submit" class="login-button">로그인</button>
+              <div class="wrap-pwcheck">
+                <label for="pwcheck">비밀번호 확인</label>
+                <input type="password" class="pwcheck" name="pwcheck" id="pwcheck" />
+              </div>
+              <button type="submit" class="signup-button">회원가입</button>
             </div>
           </fieldset>
         </form>
@@ -45,8 +53,8 @@
           </div>
         </div>
         <div class="link-signup">
-          <p>판다마켓이 처음이신가요?</p>
-          <a href="/signup">회원가입</a>
+          <p>이미 회원원이신가요?</p>
+          <a href="/login">로그인</a>
         </div>
       </div>
     </div>
