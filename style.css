@@ -145,13 +145,11 @@ main {
 }
 
 #description .wrap-description {
-    gap: 69px;
     padding-bottom: 0;
     margin-bottom: 60px;
 }
 
 #footer {
-    margin-top: -62px;
     background-color: #111827;
 }
 
