@@ -161,7 +161,7 @@ main {
 }
 
 #footer {
-    background-color: #111827;
+  background-color: #111827;
 }
 
 #footer .wrap-footer {
@@ -309,7 +309,6 @@ body:has(.wrap-userinfo) {
 .link-signup p {
   font-size: 14px;
   line-height: 24px;
-  color: #1f2937;
 }
 
 .link-signup a {
@@ -317,4 +316,17 @@ body:has(.wrap-userinfo) {
   line-height: 24px;
   color: #3692FF;
   text-decoration: underline;
+}
+
+/* 비밀번호 input 눈 모양 */
+.wrap-pw input,
+.wrap-pwcheck input {
+  background-image: url('./img/ic_eye_blind.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: right 24px center;
+}
+
+.wrap-pwcheck input {
+  background-image: url('./img/ic_eye_open.png');
 }
