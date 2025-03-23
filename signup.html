@@ -13,47 +13,45 @@
 </head>
 
 <body>
-  <div id="wrap-userinfo wrap-signup">
+  <div class="wrap-userinfo wrap-signup">
     <div class="box-userinfo">
       <div class="wrap-logo">
         <img src="./img/logo.png" alt="판다마켓" />
       </div>
-      <div class="wrap-userinfo">
-        <form>
+      <div class="wrap-userform">
+        <form action="" method="POST" autocomplete="on">
           <fieldset>
             <legend>판다마켓 회원가입</legend>
             <div class="main-signup">
-              <div class="wrap-email">
+              <div class="wrap-input wrap-email">
                 <label for="email">이메일</label>
-                <input type="email" class="email" name="email" id="email" placeholder="codeit@email.com" />
+                <input type="email" class="email" name="email" id="email" placeholder="codeit@email.com" required />
               </div>
-              <div class="wrap-nickname">
+              <div class="wrap-input wrap-nickname">
                 <label for="nickname">닉네임</label>
-                <input type="text" class="nickname" name="nickname" id="nickname" placeholder="판다" />
+                <input type="text" class="nickname" name="nickname" id="nickname" placeholder="판다" required />
               </div>
-              <div class="wrap-pw">
+              <div class="wrap-input wrap-pw">
                 <label for="pw">비밀번호</label>
-                <input type="password" class="pw" name="pw" id="pw" />
+                <input type="password" class="pw" name="pw" id="pw" required />
               </div>
-              <div class="wrap-pwcheck">
+              <div class="wrap-input wrap-pwcheck">
                 <label for="pwcheck">비밀번호 확인</label>
-                <input type="password" class="pwcheck" name="pwcheck" id="pwcheck" />
+                <input type="password" class="pwcheck" name="pwcheck" id="pwcheck" required />
               </div>
               <button type="submit" class="signup-button">회원가입</button>
             </div>
           </fieldset>
         </form>
         <div class="easy-login">
-          <div class="box-easylogin">
-            <p>간편 로그인하기</p>
+            <p class="gray800">간편 로그인하기</p>
             <div class="ic-sns">
               <a href="https://www.google.com/" target="_blank"><img src="./img/ic_google.png" alt="구글 간편 로그인" /></a>
               <a href="https://www.kakaocorp.com/page/" target="_blank"><img src="./img/ic_kakaotalk.png" alt="카카오톡 간편 로그인" /></a>
             </div>
-          </div>
         </div>
-        <div class="link-signup">
-          <p>이미 회원원이신가요?</p>
+        <div class="link-signup gray800">
+          <p>이미 회원이신가요?</p>
           <a href="/login">로그인</a>
         </div>
       </div>
